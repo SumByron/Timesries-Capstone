@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.arima.model import ARIMA
 from prophet import Prophet
